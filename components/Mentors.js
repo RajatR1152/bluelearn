@@ -9,11 +9,13 @@ export default function Mentors() {
                 <h1 className="text-2xl text-white font-semibold text-center">Meet our top mentors</h1>
             </div>
 
-            <div className="container w-full h-3/6 flex relative -top-[30%]">
+            <div className="container w-full h-3/6 flex  relative -top-[30%]">
                 <CiCircleChevLeft className='mx-3 mt-20' size={30} />
-                <MentorCard years={10} />
-                <MentorCard years={7} />
-                <MentorCard years={5} />
+                <div className="container w-full md:gap-0 gap-10 flex md:flex-row flex-col">
+                    <MentorCard years={10} />
+                    <MentorCard years={7} />
+                    <MentorCard years={5} />
+                </div>
                 <CiCircleChevRight className='mx-3 mt-20' size={30} />
             </div>
         </div>

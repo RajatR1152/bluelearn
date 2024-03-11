@@ -3,7 +3,7 @@ import { FaAngleRight, FaRegCheckCircle } from 'react-icons/fa'
 
 export default function HeroText() {
     return (
-        <div className="container flex flex-col gap-7 font-semibold w-7/12 h-full">
+        <div className="container flex flex-col gap-7 font-semibold w-full md:w-7/12 h-full">
             <div className="container w-full">
                 <p className="text-md mt-14 my-10 capitalize">
                     Our ever-growing number of centers,
@@ -21,7 +21,7 @@ export default function HeroText() {
 
             <h1 className="text-3xl font-semibold text-orange-500 capitalize">Checkout the centre closest to you</h1>
 
-            <form className='w-6/12 flex flex-col gap-5 py-5' >
+            <form className='md:w-6/12 flex flex-col gap-5 py-5' >
 
                 <select name="city" className='w-full p-3 px-5 focus:outline-none rounded-lg border-2 border-orange-500 bg-transparent' id="city">
                     <option value="city1">city1</option>

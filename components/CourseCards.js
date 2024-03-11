@@ -9,15 +9,15 @@ export default function CourseCards() {
         <div className="container flex flex-col gap-10 w-full h-fit p-5">
 
             <div>
-                <h1 className="text-3xl font-semibold text-center text-[#1a1e4a]">
+                <h1 className="md:text-3xl font-semibold text-center text-[#1a1e4a]">
                     Not sure which course is for you?
                 </h1>
-                <h1 className="text-3xl font-semibold text-center text-[#1a1e4a]">
+                <h1 className="md:text-3xl font-semibold text-center text-[#1a1e4a]">
                     Checkout these <Link href={'/'} className='text-orange-500 underline'>FREE lectures</Link> to help you choose!
                 </h1>
             </div>
 
-            <div className="container w-full flex">
+            <div className="container w-full flex md:flex-row flex-col">
                 <Card />
                 <Card />
                 <Card />
